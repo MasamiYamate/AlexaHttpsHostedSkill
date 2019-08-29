@@ -1,9 +1,11 @@
-//ask-sdkの読み込み
+// ask-sdkの読み込み
 const Alexa = require('ask-sdk-core');
-//expressの読み込み
+// expressの読み込み
 const express = require('express');
-//ExpressAdapterの読み込み
+// ExpressAdapterの読み込み
 const { ExpressAdapter } = require('ask-sdk-express-adapter');
+// Handlerの判定お助けツールを読み込む
+const Util = require('./Utility');
 
 // MARK: 定数群
 const PORT_NO = 3000; 
